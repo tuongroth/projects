@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Ranking</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet">
+                
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+  body {
+    font-family: 'Roboto';
+                                                
+  margin: 50px 50px 0 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  
+}
+
+.Span{
+  text-align: right;
+  background-color: #db0000;
+}
+
+
+
+footer {
+  text-align: right;
+  color:	#ffffff;
+}
+
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.motivation-img {
+  border: 5px solid white;
+  width: 100%;
+}
+
+.container {
+      color: white;
+      display: inline-flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: space-around;
+      margin-bottom: 25%;
+    
+    }
+
+    .container > * {
+      flex-basis: 100px;
+      background-color: lightgrey;
+  width: 300px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+    
+
+    .red {
+      background-color: #eb4d4b;
+    }
+
+    .orange {
+      background-color: #f0932b;
+    }
+
+    .yellow {
+      background-color: #f6e58d;
+    }
+
+    .green {
+      background-color: #6ab04c;
+    }
+
+    body {
+  background-color: black;
+}
+
+
+
+
+.Develope {
+  color: 	#c1071e;
+  float: right;
+}
+.Design {
+  color:	#ffd966;
+  float: right;
+}
+.Create {
+  color: 	#6aa84f;
+  float: right;
+}
+
+h2  {
+ text-align: center;
+ color: #ffffff;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+
+</style>
+<body>
+  <div class="main">
+    <p><span class="Create">Create</span>.<span class="Develope">Develope</span>.<span class="Design">Design</span>.</p>
+
+    <h1>The Best Self-Made <br><span class="Span">Projects</span> <br /> According to Roth</h1>
+   
+  </div>
+
+  <div class="poster">
+    <img class="motivation-img" src="./assets/images/daenerys.jpeg" src="daenerys with egg" />
+    <h2>That Special Moment</h2>
+    <p>When you find the perfect avocado at the supermarket</p>
+  </div>
+
+  <div class="container">
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    
+  </div>
+
+
+  <footer>
+    <div class="left card"><img class="tile-image" src="./Useful.png" alt="hand and flower in water">
+      <h2 class="card-title">Beauty</h2>
+      <p class="card-text">I strive to create the most beautiful websites for all your needs. Working closely with you
+        to
+        design and
+        develop an amazing website for your business.</p>
+    </div>
+
+    <div class="right card"><img class="tile-image" src="./assets/images/construction.jpg" alt="metal structure">
+      <h2 class="card-title">Construction</h2>
+      <p>Built by our team of professional developers, we ensure the most rigourous and modern websites. Built from
+        scratch using HTML and CSS. Only the best for you.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
